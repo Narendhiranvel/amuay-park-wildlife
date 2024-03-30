@@ -1,0 +1,17 @@
+#qr{
+    width: 150px;
+    height: 150px;
+}
+
+@media(min-width:450px) and (max-width:750px){
+    #qr{
+    width: 120px;
+    height: 120px;
+    }
+} 
+@media(max-width:449px){
+    #qr{
+        width: 100px;
+        height: 100px;
+        }
+}

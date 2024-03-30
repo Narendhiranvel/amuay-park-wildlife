@@ -1,0 +1,86 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:ghostwhite;
+}
+
+.container {
+    width: 50%;
+    margin: 150px auto;
+    background-color: #338559;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.top-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6B281F;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #6B281F;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.link {
+    text-decoration: none;
+}
+.link p {
+    color: #70493E; 
+    
+}
+button[type="submit"]:hover {
+    background-color: maroon;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+.top-image{
+    width: 51px;
+    height: 51px;
+}
+@media(max-width:449px){
+    .container{
+        margin-top: 300px;
+    }
+}

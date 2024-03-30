@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./CSS/events_page.css" />
+    <link rel="stylesheet" href="./CSS/membership.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="events_page">
+        <div class="header">
+            <div class="header_texts">
+                <a href="./index.html">
+                    <p>Home</p>
+                </a>
+                <a class ="head_link" href="./conservation.html"><p>Conservation</p></a>
+                <a class="head_link" href="./news_page.html">
+                    <p>News</p>
+                </a>
+                <a class ="head_link" href ="./support.html"><p>Support Us</p></a>
+                <a class ="head_link" href="./contact.html"><p>Contact Us</p></a>   
+            </div>
+        </div>
+        <div class="events_page_cover">
+            
+            <div class="events_page_title">
+                <div class="logo">
+                    <img class="elephant" src="./images/Elephant.png" />
+                    <div>
+                        <p>Amuay Wildlife</p>
+                        <p>Park</p>
+                    </div>
+                </div>
+                <div class="page_title_content">
+                    <a class="link" href="./education.html">
+                        <p>Education</p>
+                    </a>
+                    <a class ="link" href="./discover_page.html" ><p>Things To Do</p></a>
+                    <a class ="link" href="./who_are_we.html"><p>Who we are</p></a>
+                    <a href="./booking.html"><button id="book">Book Tickets</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="membership">
+            <h2>Membership Options</h2>
+            <p>Become a member of Amuay Wildlife Park and enjoy exclusive benefits:</p>
+            <ul>
+                <li>Free entry to the park for one year</li>
+                <li>Discounts on merchandise and events</li>
+                <li>Access to members-only areas</li>
+                <li>Special invitations to member events</li>
+            </ul>
+            <p>To become a member, please fill out the form below:</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="membership_type">Membership Type:</label>
+                <select id="membership_type" name="membership_type" required>
+                    <option value="basic">Basic Membership ($50/year)</option>
+                    <option value="premium">Premium Membership ($100/year)</option>
+                    <!-- Add more membership options if needed -->
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="logo_fotter">
+                    <div class="logo">
+                        <img class="elephant" src="./images/Elephant.png" />
+                        <div>
+                            <p>Amuay Wildlife</p>
+                            <p>Park</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Useful_links">
+                    <h3>Useful Links</h3>
+                    <h4>Contact Us</h4>
+                    <h4>About Us</h4>
+                    <h4>Terms & Conditions</h4>
+                    <h4>Support Us</h4>
+                </div>
+                <div class="reach_us">
+                    <div class="address">
+                        <h3 class="add_text">Address</h3>
+                        <h4>Amuay Wildlife Park, Carretera, </h4>
+                        <h4>Venezuela</h4>
+                    </div>
+                </div>
+                <div class="follow_us">
+                    <h4>Follow Us</h4>
+                    <div class="logo_images">
+                        <img id="insta" src="./images/insta_logo.avif" />
+                        <img id="fb" src="./images/fb_logo.png" />
+                        <img id="x" src="./images/x_logo.jpg" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

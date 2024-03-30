@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/membership.png"); /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.membership {
+    flex-direction:column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Set width to 50% */
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+.membership h2 {
+    color: #333;
+}
+
+.membership p {
+    color: #666;
+}
+
+.membership ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.membership ul li {
+    margin-bottom: 10px;
+}
+
+.membership label {
+    font-weight: bold;
+}
+
+.membership input[type="text"],
+.membership input[type="email"],
+.membership select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.membership input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.membership input[type="submit"]:hover {
+    background-color: #45a049;
+}
+@media(max-width:449px){
+    .membership {
+        margin-top: 250px;
+    }
+}

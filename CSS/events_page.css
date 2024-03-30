@@ -1,0 +1,351 @@
+.header { 
+    background-color: #338559;  
+}
+.header_texts {
+    height: 3.5vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Inter", sans-serif;
+    margin-right: 35px;
+}
+.header_texts > a{
+    margin-right: 40px; 
+    font-weight: 600; 
+    font-size: 13px;
+    text-decoration: none;
+} 
+.events_page_cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.events_page_title {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    display: flex;
+    margin-left: 25px;
+    height: 100px;
+    width: 95%;
+    border-bottom: 1px solid #70493E;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .elephant {
+    width: 87px;
+    height: 71px;
+    margin-right: 10px; 
+}
+
+.logo p {
+    margin: 0; 
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    color: #70493E; 
+    font-size: 25px;
+}
+
+.page_title_content {
+    display: flex;
+    align-items: center; 
+    margin-left: auto; 
+    min-width: 100px;
+}
+.page_title_content > .link > p{
+    font-family: "Inter", sans-serif;
+    color: #70493E;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.page_title_content > .link{
+    text-decoration: none;
+}
+#book{
+    color: #FFFFFF;
+    background-color: #6B281F;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+}
+.footer {
+    background-color: #338559;
+    margin-top: 100px;
+    display: flex;
+}
+.logo_fotter{
+    flex-grow: 1;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.logo_images img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px; 
+}
+.Useful_links, .Useful_links > h3{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+.reach_us, .add_text{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+.follow_us{
+    flex-grow: 1;
+    color: #FFFFFF;
+    margin-right: 10%;
+    font-family: "Inter", sans-serif;
+}
+.follow_us > h4{
+    margin-left: 10%;
+}
+.events_body {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top:13%;
+    transform: translateX(-50%);
+}
+.daily_events{
+    width: 500px;
+    height: 600px;
+    background-color: #CAA87B;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;  
+}
+.daily_events > h2{
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+}
+.event_date{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 80%;
+    height: 30px;
+    background-color: #99855F;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.event_date,h3{
+    color: #201212;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+.event_1{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 80%;
+    height: 100px;
+    background-color: #6B281F;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.event_1,p{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+#book:hover {
+    background-color: #338559;
+}
+@media(max-width:449px){
+    .events_page_cover{
+        flex-direction: column;
+    }
+    .header_texts {
+        height: 2vh;
+        margin-right: 10px;
+    }
+    .header a {
+        margin-right: 5px; 
+        font-size: 8px;
+    }
+    .events_page_title {
+        margin-left: 7px;
+        top: 3%;
+        height: 55px;
+        align-items: center; 
+        justify-content: center; 
+    }
+    .logo .elephant {
+        width: 37px;
+        height: 25px; 
+    } 
+    .logo p {
+        font-size: 10px;
+    }
+    .page_title_content {
+        top: 10%;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        position: absolute;
+        top: 250%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 10px;
+    }
+    .page_title_content > a >p{
+        margin-right: 0; 
+    }
+    .page_title_content > p >a {
+        margin-right: 0; 
+        color: darkred;
+    }
+    #book{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .Useful_links{
+        font-size: 5px;
+    }
+    .address{
+        font-size: 5px;
+    }
+    .follow_us{
+        font-size: 5px;
+    }
+    .logo_images > img {
+        width: 8px;
+        height: 8px;
+    }
+    .follow_us > h4{
+        margin-left: 20%;
+    }
+    .events_body{
+        width: 350px;
+    }
+    .daily_events{
+        width: 350px;
+        height: 250px;
+        margin-top: 300px; 
+        flex-shrink: 1;
+    }
+    .daily_events > h2{
+        font-size: 0.7rem;
+        margin-bottom: 0px;
+    }
+    .event_date{
+        height: 18px;
+        width: 240px;
+        font-size: 0.7rem;
+    }
+    .event_1{
+        width: 240px;
+        height:50px;
+        font-size: 10px;;
+        margin-bottom: 20px;
+    }
+    .footer{
+        margin-top: 375px;
+    }
+}
+@media(min-width:450px) and (max-width: 730px){
+    .header_texts {
+        height: 4vh;
+        margin-right: 2px;
+        margin-left: 10px;
+    }
+    .header a {
+        margin-right: 30px; 
+        font-size: 10px;
+    }
+    .events_page_title {
+        margin-left: 10px;
+        top: 5%;
+        height: 55px;
+    }
+    
+    .logo .elephant {
+        width: 50px;
+        height: 40px;
+    }
+    
+    .logo p {
+        font-size: 12px;
+    }
+    .page_title_content >.link > p{
+        font-size: 10px;
+    }
+    #book{
+        font-size: 11px;
+        padding: 7px;
+    }
+    .Useful_links{
+        font-size: 10px;
+    }
+    .address{
+        font-size: 10px;
+    }
+    .follow_us{
+        font-size: 10px;
+    }
+    .logo_images > img {
+        width: 17px;
+        height: 17px;
+    }
+    .follow_us > h4{
+        margin-left: 20%;
+    }
+    .events_body{
+        width: 450px;
+    }
+    .daily_events{
+        height: 355px;
+        margin-top: 60px; 
+    }
+    .daily_events > h2{
+        font-size: 0.9rem;
+    }
+    .event_date{
+        height: 23px;
+        width: 280px;
+        font-size: 0.7rem;
+    }
+    .event_1{
+        width: 280px;
+        height:60px;
+        font-size: 12px;
+    }
+    
+}
+@media(min-width:731px) and (max-width: 1050px){
+    .events_body{
+        width: 450px;
+    }
+    .daily_events{
+        height: 450px;
+    }
+    .daily_events > h2{
+        font-size: 1.1rem;
+    }
+    .event_date{
+        height: 25px;
+        width: 300px;
+        font-size: 0.8rem;
+    }
+    .event_1{
+        width: 300px;
+        height:70px;
+        font-size: 13px;;
+    }
+}
